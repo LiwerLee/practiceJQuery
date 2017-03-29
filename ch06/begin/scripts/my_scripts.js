@@ -1,8 +1,6 @@
+$(document).ready( function() {
 
-
-
-
-  used_cards=new Array();
+  var used_cards = new Array();
 
   function card(name,suit,value) {
     this.name = name;
